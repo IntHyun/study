@@ -6,46 +6,120 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>우리은행</title>
         <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="main.css" />
     </head>
     <body>
         <header class="header-wrapper">
             <section class="menu-item-wrapper">
                 <h1 class="screen-out">...</h1>
                 <nav class="menu-main">
-                    <a href="">우리은행</a>
-                    <a href="">시니어플러스</a>
+                    <a href="#"
+                        ><img src="../images/original_logo.png" alt="우리은행"
+                    /></a>
+                    <a href="#"
+                        ><img src="../images/logo1.png" alt="시니어 플러스"
+                    /></a>
                 </nav>
                 <article class="menu-etc">
                     <h2 class="screen-out">...</h2>
                     <div class="menu-resize">
                         <span>화면크기조정</span>
-                        <button class="btn-resize">+</button>
-                        <button class="btn-resize">-</button>
+                        <button class="btn-resize">
+                            <img
+                                src="../images/zoomIn.png"
+                                alt="화면크기 늘리기"
+                            />
+                        </button>
+                        <button class="btn-resize">
+                            <img
+                                src="../images/zoomOut.png"
+                                alt="화면크기 줄이기"
+                            />
+                        </button>
                         <button class="btn-resize btn-presize">원본보기</button>
                     </div>
-                    <na class="menu-sns">
-                        <a href="">FaceBook</a>
-                        <a href="">Naver</a>
-                        <a href="">Youtube</a>
-                        <a href="">Insta</a>
-                    </na
+                    <nav>
+                        <ul class="menu-sns">
+                            <li>
+                                <a href="">
+                                    <img
+                                        src="../images/sns_3.png"
+                                        alt="페이스북바로가기"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="../images/sns_1.png"
+                                        alt="네이버 블로그 바로가기"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="../images/sns_2.png"
+                                        alt="유튜브 바로가기"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="../images/sns_4.png"
+                                        alt="인스타 바로가기"
+                                /></a>
+                            </li>
+                        </ul>
+                    </nav>
                 </article>
             </section>
             <section class="menu-list-wrapper">
-                <h2 class="screen-out">...</h2>
-                <ul class="menu-list">
-                    <li>금융서비스</li>
-                    <li>관심정보</li>
-                    <li>교육/세미나</li>
-                    <li>건강/여행</li>
-                </ul>
-                <article class="menu-user">
-                    <a href="">로그인</a>
-                    <a href="">회원가입</a>
-                    <button>검색</button>
-                </article>
+                <div class="menu-list-wrapper-second">
+                    <h2 class="screen-out">...</h2>
+                    <ul class="menu-list">
+                        <li><a href="">금융서비스</a></li>
+                        <li><a href="">관심정보</a></li>
+                        <li><a href="">교육/세미나</a></li>
+                        <li><a href="">건강/여행</a></li>
+                    </ul>
+                    <article class="menu-user">
+                        <h2 class="screen-out">...</h2>
+                        <a href="">로그인</a>
+                        <a href="">회원가입</a>
+                        <button>
+                            <img
+                                src="../images/btn_search_blue_pc.png"
+                                alt="ㅇ"
+                            />
+                        </button>
+                    </article>
+
+                    <ul class="test">
+                        <li>4</li>
+                        <li>4</li>
+                        <li>4</li>
+                        <li>4</li>
+                        <li>4</li>
+                    </ul>
+                </div>
             </section>
         </header>
+        <main class="main-wrapper">
+            <div class="banner-img">
+                <img src="../images/banner.jpg" alt="배너이미지" />
+            </div>
+            <section class="service">
+                <h2 class="service-bank">금융서비스</h2>
+                <p>
+                    은퇴준비가 걱정되시나요? 지금 바로 은퇴설계시스템을 통해
+                    은퇴준비 상태를 점검하세요!
+                </p>
+                <div class="images-wrapper">
+                    <a href="#"><img src="../images/은퇴.jpg" alt="" /></a>
+                    <a href="#"><img src="../images/이벤트.jpg" alt="" /></a>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

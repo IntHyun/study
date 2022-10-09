@@ -1,0 +1,25 @@
+.main-wrapper {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.banner-img img {
+    padding-top: 144px;
+    max-width: 100%;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service .service-bank {
+    padding-top: 70px;
+}
+
+.service p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
